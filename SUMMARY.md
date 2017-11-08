@@ -6,7 +6,7 @@
 * [Document APIs](document-apis.md)
   * [Index API](document-apis/index-api.md)
   * [Get API](document-apis/get-api.md)
-  * Delete API
+  * [Delete API](document-apis/delete-api.md)
   * Delete By Query API
   * Update API
   * Multi Get API

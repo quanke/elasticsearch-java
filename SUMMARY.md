@@ -24,6 +24,6 @@
   * Bucket aggregations
 * [Query DSL](query-dsl.md)
   * [Match All Query](query-dsl/match-all-query.md)
-* Indexed Scripts API
+* [Indexed Scripts API](indexed-scripts-api.md)
   * Script Language
 

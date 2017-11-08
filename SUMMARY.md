@@ -20,4 +20,5 @@
   * [Search Template](search-api/search-template.md)
 * [Aggregations](aggregations.md)
   * [Structuring aggregations](aggregations/structuring-aggregations.md)
+  * [Metrics aggregations](aggregations/metrics-aggregations.md)
 

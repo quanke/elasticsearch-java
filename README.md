@@ -1,5 +1,7 @@
 # Elasticsearch Java API 手册
 
+![](/assets/Cover_800_1200.png)
+
 本书由 [全科](http://quanke.name) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 
 阅读地址：[https://es.quanke.name](https://es.quanke.name)
@@ -15,6 +17,8 @@ github地址：[https://github.com/quanke/elasticsearch-java](https://github.com
 更多请关注我的微信公众号：
 
 ![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)
+
+
 
 
 

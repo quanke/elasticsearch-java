@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [Client](client.md)
-  * Transport Client
+  * [Transport Client](client/transport-client.md)
 * Document APIs
 

@@ -17,7 +17,7 @@
   * [MultiSearch API](search-api/multisearch-api.md)
   * [Using Aggregations](search-api/using-aggregations.md)
   * [Terminate After](search-api/terminate-after.md)
-  * Search Template
+  * [Search Template](search-api/search-template.md)
 * Aggregations
 * Query DSL
 * Indexed Scripts API

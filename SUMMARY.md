@@ -26,4 +26,5 @@
   * [Match All Query](query-dsl/match-all-query.md)
 * [Indexed Scripts API](indexed-scripts-api.md)
   * [Script Language](indexed-scripts-api/script-language.md)
+* [Java API Administration](java-api-administration.md)
 

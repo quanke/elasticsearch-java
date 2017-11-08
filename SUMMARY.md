@@ -14,6 +14,7 @@
   * [Using Bulk Processor](document-apis/using-bulk-processor.md)
 * [Search API](search-api.md)
   * [Using scrolls in Java](search-api/using-scrolls-in-java.md)
+  * [MultiSearch API](search-api/multisearch-api.md)
 * Aggregations
 * Query DSL
 * Indexed Scripts API

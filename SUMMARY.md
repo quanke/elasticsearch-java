@@ -12,7 +12,7 @@
   * [Multi Get API](document-apis/multi-get-api.md)
   * [Bulk API](document-apis/bulk-api.md)
   * [Using Bulk Processor](document-apis/using-bulk-processor.md)
-* Search API
+* [Search API](search-api.md)
   * [Using scrolls in Java](using-scrolls-in-java.md)
   * [MultiSearch API](multisearch-api.md)
   * [Using Aggregations](using-aggregations.md)

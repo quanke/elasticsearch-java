@@ -19,8 +19,13 @@ github地址：[https://github.com/quanke/elasticsearch-java](https://github.com
 ![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)
 
 
+下面几个章节应用的相对少，所以会延后更新，计划先把 配套实例 [ elasticsearch-java-study](https://gitee.com/quanke/elasticsearch-java-study) 项目写完；
 
-
+* [Indexed Scripts API](indexed-scripts-api.md)
+  * [Script Language](indexed-scripts-api/script-language.md)
+* [Java API Administration](java-api-administration.md)
+  * [Indices Administration](java-api-administration/indices-administration.md)
+  * [Cluster Administration](java-api-administration/cluster-administration.md)
 
 ## 参考
 

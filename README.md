@@ -1,4 +1,4 @@
-# Elasticsearch Java API 手册
+# Elasticsearch Java API 指南
 
 This file file serves as your book's preface, a great place to describe your book's content and ideas
 

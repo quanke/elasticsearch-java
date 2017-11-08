@@ -5,7 +5,7 @@
 
 使用Maven管理项目，把下面代码增加到`pom.xml`;
 
-> 一定要修改默认仓库地址为https://artifacts.elastic.co/maven，因为这个库没有上传到Maven中央仓库
+> 一定要修改默认仓库地址为https://artifacts.elastic.co/maven ，因为这个库没有上传到Maven中央仓库
 
 ```
 <project ...>

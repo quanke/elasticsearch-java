@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Dependency
+* [Dependency](dependency.md)
 * [Client](client.md)
   * [Transport Client](client/transport-client.md)
 * [Document APIs](document-apis.md)

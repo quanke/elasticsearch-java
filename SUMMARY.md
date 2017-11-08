@@ -29,7 +29,7 @@
   * [Compound queries](query-dsl/compound-queries.md)
   * [Joining queries](query-dsl/joining-queries.md)
   * [Geo queries](query-dsl/geo-queries.md)
-  * Specialized queries
+  * [Specialized queries](query-dsl/specialized-queries.md)
   * [Span queries](query-dsl/span-queries.md)
 * [Indexed Scripts API](indexed-scripts-api.md)
   * [Script Language](indexed-scripts-api/script-language.md)

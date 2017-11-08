@@ -4,7 +4,7 @@
 * [Dependency](dependency.md)
 * [Client](client.md)
   * [Transport Client](client/transport-client.md)
-  * XPack Transport Client
+  * [XPack Transport Client](client/xpack-transport-client.md)
 * [Document APIs](document-apis.md)
   * [Index API](document-apis/index-api.md)
   * [Get API](document-apis/get-api.md)

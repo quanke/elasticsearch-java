@@ -5,7 +5,7 @@
   * [Transport Client](client/transport-client.md)
 * [Document APIs](document-apis.md)
   * [Index API](document-apis/index-api.md)
-  * Get API
+  * [Get API](document-apis/get-api.md)
   * Delete API
   * Delete By Query API
   * Update API

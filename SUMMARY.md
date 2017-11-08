@@ -19,5 +19,5 @@
   * [Terminate After](search-api/terminate-after.md)
   * [Search Template](search-api/search-template.md)
 * [Aggregations](aggregations.md)
-  * Structuring aggregations
+  * [Structuring aggregations](aggregations/structuring-aggregations.md)
 

@@ -16,6 +16,7 @@
   * [Using scrolls in Java](search-api/using-scrolls-in-java.md)
   * [MultiSearch API](search-api/multisearch-api.md)
   * [Using Aggregations](search-api/using-aggregations.md)
+  * [Terminate After](search-api/terminate-after.md)
 * Aggregations
 * Query DSL
 * Indexed Scripts API

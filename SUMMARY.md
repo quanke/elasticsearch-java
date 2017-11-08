@@ -22,6 +22,4 @@
   * [Structuring aggregations](aggregations/structuring-aggregations.md)
   * [Metrics aggregations](aggregations/metrics-aggregations.md)
   * Bucket aggregations
-* Query DSL
-  * [Match All Query](match-all-query.md)
 

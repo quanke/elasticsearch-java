@@ -14,5 +14,5 @@ github地址：[https://github.com/quanke/elasticsearch-java](https://github.com
 
 更多请关注我的微信公众号：
 
-![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)
+
 

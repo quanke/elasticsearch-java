@@ -35,4 +35,5 @@
   * [Script Language](indexed-scripts-api/script-language.md)
 * [Java API Administration](java-api-administration.md)
   * [Indices Administration](java-api-administration/indices-administration.md)
+  * Cluster Administration
 

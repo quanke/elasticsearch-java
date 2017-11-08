@@ -14,7 +14,7 @@
   * [Using Bulk Processor](document-apis/using-bulk-processor.md)
 * Search API
   * [Using scrolls in Java](using-scrolls-in-java.md)
-  * MultiSearch API
+  * [MultiSearch API](multisearch-api.md)
   * Using Aggregations
   * Terminate After
   * Search Template

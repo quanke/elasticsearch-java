@@ -13,7 +13,7 @@
   * [Bulk API](document-apis/bulk-api.md)
   * [Using Bulk Processor](document-apis/using-bulk-processor.md)
 * Search API
-  * Using scrolls in Java
+  * [Using scrolls in Java](using-scrolls-in-java.md)
   * MultiSearch API
   * Using Aggregations
   * Terminate After

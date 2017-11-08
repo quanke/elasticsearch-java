@@ -2,7 +2,7 @@
 
 ### Maven Repository
 
-Elasticsearch Java API包已经上传到 [Maven Central](http://search.maven.org/#search|ga|1|a%3A"elasticsearch")
+Elasticsearch Java API包已经上传到 \[Maven Central\]\([http://search.maven.org/\#search\|ga\|1\|a%3A"elasticsearch](http://search.maven.org/#search|ga|1|a%3A"elasticsearch)"\)
 
 在`pom.xml`文件中增加：
 

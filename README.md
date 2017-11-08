@@ -1,6 +1,6 @@
 # Elasticsearch Java API 手册
 
-![](/assets/Cover_400_600.png)
+![](/assets/Cover_400_600.jpg)
 
 本书由 [全科](http://quanke.name) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 

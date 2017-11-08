@@ -25,5 +25,5 @@
 * [Query DSL](query-dsl.md)
   * [Match All Query](query-dsl/match-all-query.md)
 * [Indexed Scripts API](indexed-scripts-api.md)
-  * Script Language
+  * [Script Language](indexed-scripts-api/script-language.md)
 

@@ -2,7 +2,7 @@
 
 本书由 [全科](http://quanke.name) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 
-阅读地址：[https://es-java.quanke.name](https://es-java.quanke.name)
+阅读地址：[https://es.quanke.name](https://es.quanke.name)
 
 下载地址：[https://www.gitbook.com/book/quanke/elasticsearch-java](https://www.gitbook.com/book/quanke/elasticsearch-java)
 

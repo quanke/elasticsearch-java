@@ -21,4 +21,5 @@
 * [Aggregations](aggregations.md)
   * [Structuring aggregations](aggregations/structuring-aggregations.md)
   * [Metrics aggregations](aggregations/metrics-aggregations.md)
+  * Bucket aggregations
 

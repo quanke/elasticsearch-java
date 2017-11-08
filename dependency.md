@@ -1,11 +1,11 @@
-
 ## 安装
 
 ### Maven Repository
 
-Elasticsearch Java API包已经上传到 [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22elasticsearch%22)
+Elasticsearch Java API包已经上传到 [Maven Central](http://search.maven.org/#search|ga|1|a%3A"elasticsearch")
 
 在`pom.xml`文件中增加：
+
 > 版本号选择自己合适的。
 
 ```
@@ -15,3 +15,6 @@ Elasticsearch Java API包已经上传到 [Maven Central](http://search.maven.org
     <version>5.6.3</version>
 </dependency>
 ```
+
+
+

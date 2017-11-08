@@ -15,7 +15,7 @@
 * Search API
   * [Using scrolls in Java](using-scrolls-in-java.md)
   * [MultiSearch API](multisearch-api.md)
-  * Using Aggregations
+  * [Using Aggregations](using-aggregations.md)
   * Terminate After
   * Search Template
 * Aggregations

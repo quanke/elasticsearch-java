@@ -23,5 +23,5 @@
   * [Metrics aggregations](aggregations/metrics-aggregations.md)
   * Bucket aggregations
 * [Query DSL](query-dsl.md)
-  * Match All Query
+  * [Match All Query](query-dsl/match-all-query.md)
 

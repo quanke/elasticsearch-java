@@ -11,5 +11,5 @@
   * [Update API](document-apis/update-api.md)
   * [Multi Get API](document-apis/multi-get-api.md)
   * [Bulk API](document-apis/bulk-api.md)
-  * Using Bulk Processor
+  * [Using Bulk Processor](document-apis/using-bulk-processor.md)
 

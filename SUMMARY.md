@@ -8,7 +8,7 @@
   * [Get API](document-apis/get-api.md)
   * [Delete API](document-apis/delete-api.md)
   * [Delete By Query API](document-apis/delete-by-query-api.md)
-  * Update API
+  * [Update API](document-apis/update-api.md)
   * Multi Get API
   * Bulk API
   * Using Bulk Processor

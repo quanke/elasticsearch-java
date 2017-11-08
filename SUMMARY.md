@@ -18,5 +18,6 @@
   * [Using Aggregations](search-api/using-aggregations.md)
   * [Terminate After](search-api/terminate-after.md)
   * [Search Template](search-api/search-template.md)
-* Aggregations
+* [Aggregations](aggregations.md)
+  * Structuring aggregations
 

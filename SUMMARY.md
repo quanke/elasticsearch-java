@@ -18,4 +18,8 @@
   * Using Aggregations
   * Terminate After
   * Search Template
+* Aggregations
+* Query DSL
+* Indexed Scripts API
+* Java API Administration
 

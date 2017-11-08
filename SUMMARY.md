@@ -25,6 +25,7 @@
 * [Query DSL](query-dsl.md)
   * [Match All Query](query-dsl/match-all-query.md)
   * [Full text queries](query-dsl/full-text-queries.md)
+  * Term level queries
 * [Indexed Scripts API](indexed-scripts-api.md)
   * [Script Language](indexed-scripts-api/script-language.md)
 * [Java API Administration](java-api-administration.md)

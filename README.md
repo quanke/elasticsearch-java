@@ -10,6 +10,8 @@
 
 github地址：[https://github.com/quanke/elasticsearch-java](https://github.com/quanke/elasticsearch-java)
 
+gitee 地址：[https://gitee.com/quanke/elasticsearch-java](https://gitee.com/quanke/elasticsearch-java) 
+
 编辑：[http://quanke.name](http://quanke.name)
 
 编辑整理辛苦，还望大神们点一下star ，抚平我虚荣的心

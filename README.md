@@ -16,6 +16,8 @@ gitee 地址：[https://gitee.com/quanke/elasticsearch-java](https://gitee.com/q
 
 编辑整理辛苦，还望大神们点一下star ，抚平我虚荣的心
 
+> 不只是官方文档的翻译，还包含使用实例，包含我们使用踩过的坑
+
 更多请关注我的微信公众号：
 
 ![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)

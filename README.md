@@ -21,6 +21,11 @@ gitee 地址：[https://gitee.com/quanke/elasticsearch-java](https://gitee.com/q
 
 > 不只是官方文档的翻译，还包含使用实例，包含我们使用踩过的坑
 
+## 推荐阅读
+
+[Elasticsearch Java Rest 手册](https://www.gitbook.com/book/quanke/elasticsearch-java-rest/) 已经完成大部分
+
+
 更多请关注我的微信公众号：
 
 ![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)

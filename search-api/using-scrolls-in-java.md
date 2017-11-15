@@ -7,11 +7,11 @@
 Scroll API的创建并不是为了实时的用户响应，而是为了处理大量的数据（Scrolling is not intended for real time user requests, but rather for processing large amounts of data）。从 scroll 请求返回的结果只是反映了 search 发生那一时刻的索引状态，就像一个快照(The results that are returned from a scroll request reflect the state of the index at the time that the initial search request was made, like a snapshot in time)。后续的对文档的改动（索引、更新或者删除）都只会影响后面的搜索请求。
 
 
-
-
 ```
 import static org.elasticsearch.index.query.QueryBuilders.*;
+```
 
+```
 QueryBuilder qb = termQuery("multi", "test");
 
 SearchResponse scrollResp = client.prepareSearch(test)
@@ -48,6 +48,7 @@ Caused by: SearchContextMissingException[No search context found for id [2861]]
 ```
 > 虽然当滚动有效时间已过，搜索上下文(Search Context)会自动被清除，但是一值保持滚动代价也是很大的，所以当我们不在使用滚动时要尽快使用Clear-Scroll API进行清除。
 
+## 清除Scroll
 
 ```
   /**
@@ -80,4 +81,49 @@ Caused by: SearchContextMissingException[No search context found for id [2861]]
 
 ```
 
+public class ScrollsAPI extends ElasticsearchClientBase {
+
+    private String scrollId;
+
+    @Test
+    public void testScrolls() throws Exception {
+
+        SearchResponse scrollResp = client.prepareSearch("twitter")
+                .addSort(FieldSortBuilder.DOC_FIELD_NAME, SortOrder.ASC)
+                .setScroll(new TimeValue(60000)) //为了使用 scroll，初始搜索请求应该在查询中指定 scroll 参数，告诉 Elasticsearch 需要保持搜索的上下文环境多长时间（滚动时间）
+                .setQuery(QueryBuilders.termQuery("user", "kimchy"))                 // Query 查询条件
+                .setSize(5).get(); //max of 100 hits will be returned for each scroll
+        //Scroll until no hits are returned
+
+        scrollId = scrollResp.getScrollId();
+        do {
+            for (SearchHit hit : scrollResp.getHits().getHits()) {
+                //Handle the hit...
+
+                System.out.println("" + hit.getSource().toString());
+            }
+
+            scrollResp = client.prepareSearchScroll(scrollId).setScroll(new TimeValue(60000)).execute().actionGet();
+        }
+        while (scrollResp.getHits().getHits().length != 0); // Zero hits mark the end of the scroll and the while loop.
+    }
+
+    @Override
+    public void tearDown() throws Exception {
+        ClearScrollRequestBuilder clearScrollRequestBuilder = client.prepareClearScroll();
+        clearScrollRequestBuilder.addScrollId(scrollId);
+        ClearScrollResponse response = clearScrollRequestBuilder.get();
+
+        if (response.isSucceeded()) {
+            System.out.println("成功清除");
+        }
+
+        super.tearDown();
+    }
+}
+
 ```
+
+- [ScrollsAPI.java](https://gitee.com/quanke/elasticsearch-java-study/blob/master/src/test/java/name/quanke/es/study/search/ScrollsAPI.java)
+
+- [本手册完整实例](https://gitee.com/quanke/elasticsearch-java-study)

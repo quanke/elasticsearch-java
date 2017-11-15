@@ -26,7 +26,6 @@ for (MultiSearchResponse.Item item : sr.getResponses()) {
 
 #### 实例
 
+- [MultiSearchAPI.java](https://gitee.com/quanke/elasticsearch-java-study/blob/master/src/test/java/name/quanke/es/study/search/MultiSearchAPI.java)
 
-```
-
-```
+- [本手册完整实例](https://gitee.com/quanke/elasticsearch-java-study)

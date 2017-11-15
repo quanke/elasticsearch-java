@@ -1,4 +1,6 @@
-搜索API可以支持搜索查询，返回查询匹配的结果，它可以搜索一个index / type 或者多个index / type，可以使用 [query Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-query-dsl.html) 作为查询条件，下面是例子：
+# 搜索API
+
+搜索查询，返回查询匹配的结果，搜索一个index / type 或者多个index / type，可以使用 [query Java API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-query-dsl.html) 作为查询条件，下面是例子：
 
 
 ```
@@ -17,7 +19,7 @@ SearchResponse response = client.prepareSearch("index1", "index2")
         .get();
 ```
 
-所有的参数都是可选的，下面是最小调用：
+所有的参数都是可选的，下面是最简单的调用：
 
 
 ```

@@ -5,7 +5,7 @@
 
 首先查看 [Search Template](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/search-template.html) 文档
 
-> /_search/template endpoint 允许我们在执行搜索请求和使用模板参数填充现有模板之前，能够使用 mustache 语言预先呈现搜索请求。
+> /_search/template endpoint 允许我们在执行搜索请求和使用模板参数填充现有模板之前，能够使用 `mustache` 语言预先呈现搜索请求。
 
 将模板参数定义为 `Map <String，Object>`：
 

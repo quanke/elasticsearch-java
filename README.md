@@ -4,23 +4,42 @@
 
 本书由 [全科](http://woquanke.com) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 
+
 阅读地址：[http://woquanke.com/esjava/](http://woquanke.com/esjava/)
 
 下载地址：[https://www.gitbook.com/book/quanke/elasticsearch-java](https://www.gitbook.com/book/quanke/elasticsearch-java)
 
 github地址：[https://github.com/quanke/elasticsearch-java](https://github.com/quanke/elasticsearch-java)
 
+
+
+gitee 地址：[https://gitee.com/quanke/elasticsearch-java](https://gitee.com/quanke/elasticsearch-java) 
+配套示例代码：[https://gitee.com/quanke/elasticsearch-java-study](https://gitee.com/quanke/elasticsearch-java-study)
+
+
 编辑：[http://woquanke.com](http://woquanke.com)
 
 编辑整理辛苦，还望大神们点一下star ，抚平我虚荣的心
+
+> 不只是官方文档的翻译，还包含使用实例，包含我们使用踩过的坑
+
+## 推荐阅读
+
+[Elasticsearch Java Rest 手册](https://www.gitbook.com/book/quanke/elasticsearch-java-rest/) 已经完成大部分
+
 
 更多请关注我的微信公众号：
 
 ![](/assets/qrcode_for_gh_26893aa0a4ea_258.jpg)
 
 
+下面几个章节应用的相对少，所以会延后更新，计划先把 配套实例 [ elasticsearch-java-study](https://gitee.com/quanke/elasticsearch-java-study) 项目写完；
 
-
+* [Indexed Scripts API](indexed-scripts-api.md)
+  * [Script Language](indexed-scripts-api/script-language.md)
+* [Java API Administration](java-api-administration.md)
+  * [Indices Administration](java-api-administration/indices-administration.md)
+  * [Cluster Administration](java-api-administration/cluster-administration.md)
 
 ## 参考
 

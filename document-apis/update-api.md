@@ -1,6 +1,5 @@
 
 ### Update API
-更新索引
 
 有两种方式更新索引：
 - 创建 `UpdateRequest`,通过client发送；
@@ -22,6 +21,8 @@ client.update(updateRequest).get();
 
 #### 使用 `prepareUpdate()` 方法
 
+> 这里官方的示例有问题，new Script（）参数错误，所以一下代码是我自己写的（2017/11/10）
+
 ```
 client.prepareUpdate("ttl", "doc", "1")
         .setScript(new Script("ctx._source.gender = \"male\""  ,ScriptService.ScriptType.INLINE, null, null))//脚本可以是本地文件存储的，如果使用文件存储的脚本，需要设置 ScriptService.ScriptType.FILE 
@@ -37,7 +38,7 @@ client.prepareUpdate("ttl", "doc", "1")
 
 #### Update by script
 
-使用脚本更新文档
+使用脚本更新文档 
 
 ```
 UpdateRequest updateRequest = new UpdateRequest("ttl", "doc", "1")

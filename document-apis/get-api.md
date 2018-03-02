@@ -1,11 +1,13 @@
 
 ### Get API
-get api可以通过id查看文档：
+
+根据id查看文档：
 
 ```
 GetResponse response = client.prepareGet("twitter", "tweet", "1").get();
 
 ```
+
 更多请查看 [rest get API](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/docs-get.html) 文档
 
 #### 配置线程

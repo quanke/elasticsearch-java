@@ -62,7 +62,7 @@ import org.elasticsearch.search.aggregations.metrics.max.Max;
 
 ```
 // sr is here your SearchResponse object
-Min agg = sr.getAggregations().get("agg");
+Max agg = sr.getAggregations().get("agg");
 double value = agg.getValue();
 ```
 

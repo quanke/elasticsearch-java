@@ -12,7 +12,9 @@ import org.elasticsearch.action.bulk.BulkProcessor;
 import org.elasticsearch.common.unit.ByteSizeUnit;
 import org.elasticsearch.common.unit.ByteSizeValue;
 import org.elasticsearch.common.unit.TimeValue;
+```
 
+```
 BulkProcessor bulkProcessor = BulkProcessor.builder(
         client,  //增加elasticsearch客户端
         new BulkProcessor.Listener() {
@@ -66,9 +68,9 @@ bulkProcessor.close();
 
 ```
 
-#### 在测试用使用Bulk Processor
+#### 在测试中使用Bulk Processor
 
-可以执行同步方法
+如果你在测试种使用`Bulk Processor`可以执行同步方法
 ```
 BulkProcessor bulkProcessor = BulkProcessor.builder(client, new BulkProcessor.Listener() { /* Listener methods */ })
         .setBulkActions(10000)

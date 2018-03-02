@@ -49,7 +49,7 @@ QueryBuilder qb = commonTermsQuery("name",    //field 字段
 
 - 查询语句查询（query_string query）
 
-与lucene查询语句的语法结合的更加紧密的一种查询，允许你在一个查询语句中使用多个 特殊条件关键字（如：AND|OR|NOT ）对多个字段进行查询，当然这种查询仅限专家用户去使用。
+与lucene查询语句的语法结合的更加紧密的一种查询，允许你在一个查询语句中使用多个 特殊条件关键字（如：AND|OR|NOT ）对多个字段进行查询，当然这种查询仅限`专家用户`去使用。
 
 查看[Query String Query](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-query-string-query.html)
 

@@ -2,7 +2,7 @@
 
 ![](/assets/Cover_400_600.jpg)
 
-本书由 [全科](http://woquanke.com) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
+本手册由 [全科](http://woquanke.com) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 
 
 阅读地址：[http://woquanke.com/esjava/](http://woquanke.com/esjava/)
@@ -11,9 +11,8 @@
 
 github地址：[https://github.com/quanke/elasticsearch-java](https://github.com/quanke/elasticsearch-java)
 
-
-
 gitee 地址：[https://gitee.com/quanke/elasticsearch-java](https://gitee.com/quanke/elasticsearch-java) 
+
 配套示例代码：[https://gitee.com/quanke/elasticsearch-java-study](https://gitee.com/quanke/elasticsearch-java-study)
 
 

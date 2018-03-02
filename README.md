@@ -5,7 +5,7 @@
 本手册由 [全科](http://woquanke.com) 翻译，并且整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
 
 
-阅读地址：[http://woquanke.com/esjava/](http://woquanke.com/esjava/)
+阅读地址：[http://woquanke.com/books/esjava/](http://woquanke.com/books/esjava/)
 
 下载地址：[https://www.gitbook.com/book/quanke/elasticsearch-java](https://www.gitbook.com/book/quanke/elasticsearch-java)
 
